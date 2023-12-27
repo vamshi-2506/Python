@@ -1,0 +1,5 @@
+def test(list1):
+ return list1.count(19)==2 & list1.count(5)>=5
+list1 = [int(item) for item in input("Enter the list of integers : ").split()]
+print(list1)
+print(test(list1))
