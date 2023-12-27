@@ -1,0 +1,8 @@
+l1= [int(item) for item in input("enter the original list:").split()]
+threshold= int(input("enter threashold value:"))
+length= len(l1)
+l2=[]
+for i in range(length):
+  if l1[i] < 100:
+    l2.append(i)
+   print(l2)
