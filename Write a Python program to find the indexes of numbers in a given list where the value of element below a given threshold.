@@ -3,6 +3,6 @@ threshold= int(input("enter threashold value:"))
 length= len(l1)
 l2=[]
 for i in range(length):
-  if l1[i] < 100:
+  if l1[i] < threshold:
     l2.append(i)
    print(l2)
