@@ -1,0 +1,6 @@
+list1 = [int(item) for item in input("Enter the list of integers : ").split()]
+print(list1)
+if list1.count(5) >= 3 and list1.count(19)==2:
+ print("true")
+else:
+ print("False")
